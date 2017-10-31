@@ -17,6 +17,6 @@ DO ,1 SUB #13 <- #162
 PLEASE READ OUT ,1
 PLEASE GIVE UP"""
 
-rock_it_bro = RockStar(days=400, file_name='helloworld.intercal',
+rock_it_bro = RockStar(days=300, file_name='helloworld.intercal',
                        code=intercal_code)
 rock_it_bro.make_me_a_rockstar()

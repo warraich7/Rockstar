@@ -8,5 +8,5 @@ begin
   Put_Line("Hello, world!");
 end;"""
 
-rock_it_bro = RockStar(days=400, file_name='helloworld.ada', code=ada_code)
+rock_it_bro = RockStar(days=300, file_name='helloworld.ada', code=ada_code)
 rock_it_bro.make_me_a_rockstar()

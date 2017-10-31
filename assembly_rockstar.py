@@ -18,5 +18,5 @@ msg     db  'Hello, world!',0xa,0x0 ;not sure if null needed, might as well as h
 len     equ $ - msg
 """
 
-rock_it_bro = RockStar(days=400, file_name='helloworld.s', code=asm_code)
+rock_it_bro = RockStar(days=300, file_name='helloworld.s', code=asm_code)
 rock_it_bro.make_me_a_rockstar()
